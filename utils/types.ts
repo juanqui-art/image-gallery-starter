@@ -16,4 +16,7 @@ export interface SharedModalProps {
   closeModal: () => void
   navigation: boolean
   direction?: number
+  timeDuration: number;
+
+  countdown?: number;
 }

@@ -44,6 +44,7 @@ export default function Carousel({
       </button>
       <SharedModal
         index={index}
+        timeDuration={5000}
         changePhotoId={changePhotoId}
         currentPhoto={currentPhoto}
         closeModal={closeModal}
